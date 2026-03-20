@@ -6,7 +6,7 @@ import lombok.Getter;
 public class TravelRequest {
 
     private String destination; 
-    private String duration;
+    private int duration;
     private String budget;
     private String type;
     
