@@ -11,7 +11,7 @@ import com.travelbot.dto.TravelRequest;
 import com.travelbot.service.MistralService;
 
 @RestController
-@RequestMapping("/api/mistralai")
+@RequestMapping("api/mistralai")
 @CrossOrigin
 public class MistralController {
 
