@@ -4,7 +4,7 @@ const API_BASE_URL = "https://travelbot-api.onrender.com";
 
 export const travelService = {
   async generateItinerary(formData: TravelRequest): Promise<TravelPlan> {
-    const response = await fetch(`${API_BASE_URL}/generate`, {
+    const response = await fetch(`${API_BASE_URL}/api/mistralai/generate`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
