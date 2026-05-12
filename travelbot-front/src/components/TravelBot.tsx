@@ -50,6 +50,12 @@ const TravelBot = () => {
                 </div>
 
             )}
+
+            {error && (
+                <div className="w-full max-w-lg mx-auto mb-4 p-3 bg-red-50 border border-red-200 text-red-600 text-sm rounded-2xl text-center">
+                    {error}
+                </div>
+            )}
         </div>
     )
 }
