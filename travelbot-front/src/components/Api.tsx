@@ -1,6 +1,6 @@
 import type { TravelRequest, TravelPlan } from "../types/types";
 
-const API_BASE_URL = "https://travelbot-api.onrender.com";
+const API_BASE_URL = "https://travelbot-g2vp.onrender.com/";
 
 export const travelService = {
   async generateItinerary(formData: TravelRequest): Promise<TravelPlan> {
